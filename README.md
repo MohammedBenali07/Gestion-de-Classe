@@ -1,7 +1,7 @@
 Pour pouvoir Envoyer Email depuis l'application : 
 Il faut d'abord installer Node.js
 Activez la verification a deux etapes dans son compte Google pour avoir mot de passe de l'application fournie par Google c'est a dire: 
-Modifier cette du code pour mettre les donnees correspondants 
+Modifier cette partie du code pour mettre les donnees correspondants 
  const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
