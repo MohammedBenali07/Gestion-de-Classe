@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972691957474",
+    "project_id": "sendemail-1b9e3",
+    "storage_bucket": "sendemail-1b9e3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972691957474:android:cd2299c8bcf00cbe5aa0bb",
+        "android_client_info": {
+          "package_name": "com.example.gestionOfMyClass"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNrRaUQjL8wKR5NMn8zxZ6Oq8J2tsg8fs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
