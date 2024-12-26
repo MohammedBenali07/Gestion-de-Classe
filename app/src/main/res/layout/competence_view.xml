@@ -21,11 +21,18 @@
     <!-- Logo de la compétence -->
     <ImageView
         android:id="@+id/competenceLogo"
+<<<<<<< HEAD
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginTop="5dp"
         android:src="@drawable/java"
         android:scaleType="centerCrop" />
+=======
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:src="@drawable/java" />
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 
     <!-- Cercle de progression avec pourcentage -->
     <FrameLayout

@@ -30,7 +30,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background_white"
+<<<<<<< HEAD
             android:paddingBottom="50dp">
+=======
+            android:paddingBottom="20dp">
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 
             <TextView
                 android:id="@+id/welcomeText"
@@ -60,7 +64,11 @@
                 android:id="@+id/id_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_marginTop="40dp"
+=======
+                android:layout_marginTop="20dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 android:layout_marginHorizontal="36dp"
                 android:orientation="vertical"
                 app:layout_constraintTop_toBottomOf="@+id/createText">
@@ -87,7 +95,11 @@
                     app:layout_constraintTop_toTopOf="parent"/>
             </LinearLayout>
             <LinearLayout
+<<<<<<< HEAD
                 android:id="@+id/id_email"
+=======
+                android:id="@+id/id_surname"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -97,6 +109,39 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+                    android:text="SurName"
+                    android:fontFamily="@font/inter_28pt_extrabold"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/surnameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:inputType="textPersonName"
+                    android:background="@drawable/background_inputs"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="14dp"
+                    android:layout_marginTop="12dp"
+                    android:hint="SurName"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_user"
+                    android:textColorHint="@color/hint_inputs"
+                    app:layout_constraintTop_toTopOf="parent"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/id_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="36dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/id_surname">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                     android:text="Email Academic"
                     android:fontFamily="@font/inter_28pt_extrabold"
                     android:textSize="18dp"
@@ -193,6 +238,77 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </LinearLayout>
             <LinearLayout
+<<<<<<< HEAD
+=======
+                android:id="@+id/id_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="36dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/id_password">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birthday"
+                    android:fontFamily="@font/inter_28pt_extrabold"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/birthdayInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:inputType="datetime"
+                    android:focusable="false"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="14dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/background_inputs"
+                    android:textStyle="bold"
+                    android:drawablePadding="10dp"
+                    android:drawableStart="@drawable/ic_birthday"
+                    android:textColorHint="@color/hint_inputs"
+                    android:hint="birthday"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/id_imageProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="36dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/id_birthday">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Profile Image"
+                    android:fontFamily="@font/inter_28pt_extrabold"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/profileImgInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Select Image"
+                    android:paddingVertical="12dp"
+                    android:paddingHorizontal="14dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/background_inputs"
+                    android:textStyle="bold"/>
+                <ImageView
+                    android:id="@+id/profileImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ic_avatar"
+                    android:scaleType="centerCrop"
+                    android:clipToOutline="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/background_card_white"/>
+            </LinearLayout>
+
+            <LinearLayout
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 android:id="@+id/input_checked"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -200,7 +316,11 @@
                 android:layout_marginHorizontal="36dp"
                 android:orientation="horizontal"
                 android:gravity="start"
+<<<<<<< HEAD
                 app:layout_constraintTop_toBottomOf="@+id/id_password">
+=======
+                app:layout_constraintTop_toBottomOf="@+id/id_imageProfile">
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                     <CheckBox
                         android:id="@+id/comfirm_rules"
                         android:layout_width="wrap_content"
@@ -224,6 +344,10 @@
                         android:scrollHorizontally="false"
                         android:breakStrategy="simple"
                         android:layout_marginEnd="4dp"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             </LinearLayout>
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/signUp_button"
@@ -238,10 +362,19 @@
                 app:layout_constraintTop_toBottomOf="@id/input_checked"
                 app:layout_constraintLeft_toLeftOf="parent"
                 android:layout_marginTop="20dp"/>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
+<<<<<<< HEAD
+=======
+                android:layout_marginTop="5dp"
+                android:paddingBottom="20dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 app:layout_constraintTop_toBottomOf="@id/signUp_button"
                 android:gravity="center">
                 <TextView
@@ -249,15 +382,38 @@
                     android:layout_height="wrap_content"
                     android:text="You have account?"
                     android:layout_marginEnd="5dp"
+<<<<<<< HEAD
                     android:layout_marginTop="10dp"/>
+=======
+                    android:layout_marginTop="5dp"/>
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Login Now"
                     android:fontFamily="@font/inter_28pt_extrabold"
                     android:textColor="@color/dark_yellow"
+<<<<<<< HEAD
                     android:layout_marginTop="10dp"/>
             </LinearLayout>
+=======
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/text_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-5dp"
+                android:text=""
+                android:textColor="#ff0000"
+                android:textSize="12dp"
+                android:fontFamily="@font/inter_28pt_light"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

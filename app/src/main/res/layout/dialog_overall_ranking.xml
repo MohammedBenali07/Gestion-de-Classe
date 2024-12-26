@@ -13,7 +13,11 @@
         android:id="@+id/popup_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="General Classement"
+=======
+        android:text="Overall Rank"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
         android:textSize="32sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -83,6 +87,11 @@
         android:text="Cencel"
         android:layout_marginTop="15dp"
         android:textColor="@color/dark_yellow"
+<<<<<<< HEAD
         android:layout_gravity="end"
+=======
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
         android:background="@drawable/background_button_white"/>
 </LinearLayout>

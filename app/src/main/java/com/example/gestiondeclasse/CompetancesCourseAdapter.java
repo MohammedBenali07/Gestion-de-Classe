@@ -5,6 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
+=======
+import android.widget.ImageView;
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 import android.widget.TextView;
 
 public class CompetancesCourseAdapter extends BaseAdapter {

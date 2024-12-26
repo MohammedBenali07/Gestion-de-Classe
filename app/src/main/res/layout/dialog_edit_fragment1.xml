@@ -38,6 +38,10 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:inputType="datetime"
+<<<<<<< HEAD
+=======
+        android:focusable="false"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
         android:background="@drawable/background_inputs"
         android:paddingVertical="14dp"
         android:paddingHorizontal="16dp"

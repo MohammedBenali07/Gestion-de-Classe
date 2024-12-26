@@ -94,6 +94,10 @@
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:padding="8dp"
+<<<<<<< HEAD
+=======
+                android:layout_marginVertical="5dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 android:background="@drawable/background_button_white"
                 android:layout_marginEnd="15dp" />
 
@@ -109,6 +113,10 @@
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:padding="8dp"
+<<<<<<< HEAD
+=======
+                android:layout_marginVertical="5dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
                 android:layout_marginStart="15dp"
                 android:background="@drawable/background_button_yellow" />
         </LinearLayout>

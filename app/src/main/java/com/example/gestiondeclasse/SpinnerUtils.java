@@ -1,6 +1,10 @@
 package com.example.gestiondeclasse;
 
 import android.content.Context;
+<<<<<<< HEAD
+=======
+import android.view.View;
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;

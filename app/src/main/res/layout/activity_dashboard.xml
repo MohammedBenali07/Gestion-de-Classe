@@ -36,6 +36,10 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"/>
         <TextView
+<<<<<<< HEAD
+=======
+            android:id="@+id/fullName"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mohammed Benali"

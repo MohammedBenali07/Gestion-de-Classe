@@ -4,8 +4,27 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+<<<<<<< HEAD
 
 import androidx.appcompat.app.AppCompatActivity;
+=======
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.Button;
+import android.widget.PopupWindow;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 
 public class MainActivity extends AppCompatActivity {
 

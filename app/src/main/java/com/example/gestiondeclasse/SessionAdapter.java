@@ -33,6 +33,7 @@ public class SessionAdapter extends RecyclerView.Adapter<SessionAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+<<<<<<< HEAD
         // Définir le texte de session_numer
         holder.sessionNumberTextView.setText("Session " + (position + 1));
 
@@ -77,10 +78,33 @@ public class SessionAdapter extends RecyclerView.Adapter<SessionAdapter.ViewHold
         TextView cancel = dialogView.findViewById(R.id.btn_cancel);
 
         // Créer et afficher le dialogue
+=======
+        holder.sessionNumberTextView.setText("Session " + (position + 1));
+        String session = sessions.get(position);
+        holder.sessionTextView.setText(session);
+        String pres = presence.get(position);
+        holder.presenceTextView.setText(pres);
+
+        boolean isPresent = random.nextBoolean();
+        holder.sessionTextView.setBackgroundColor(isPresent ? android.graphics.Color.GREEN : android.graphics.Color.RED);
+        holder.presenceTextView.setText(isPresent ? "Present" : "Absent");
+
+        holder.itemView.setOnClickListener(v -> showPopup(session, holder.presenceTextView.getText().toString()));
+    }
+
+    private void showPopup(String session, String presence) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        LayoutInflater inflater = LayoutInflater.from(context);
+        View dialogView = inflater.inflate(R.layout.popup_layout, null);
+        dialogView.setBackgroundResource(R.drawable.background_card_white);
+        TextView cancel = dialogView.findViewById(R.id.btn_cancel);
+
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
         AlertDialog dialog = builder.create();
         dialog.setView(dialogView);
         dialog.show();
 
+<<<<<<< HEAD
         // Gestion du bouton "Fermer"
         cancel.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -91,6 +115,11 @@ public class SessionAdapter extends RecyclerView.Adapter<SessionAdapter.ViewHold
     }
 
 
+=======
+        cancel.setOnClickListener(v -> dialog.dismiss());
+    }
+
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
     @Override
     public int getItemCount() {
         return sessions.size();
@@ -109,3 +138,7 @@ public class SessionAdapter extends RecyclerView.Adapter<SessionAdapter.ViewHold
         }
     }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63

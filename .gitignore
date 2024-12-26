@@ -13,5 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+<<<<<<< HEAD
 caches/
 
+=======
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63

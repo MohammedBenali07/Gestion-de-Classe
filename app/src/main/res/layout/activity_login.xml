@@ -27,11 +27,32 @@
         app:layout_constraintTop_toBottomOf="@id/img_login">
 
         <TextView
+<<<<<<< HEAD
+=======
+            android:id="@+id/text_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#ff0000"
+            android:textSize="12dp"
+            android:fontFamily="@font/inter_28pt_light"
+            android:textStyle="bold"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             android:id="@+id/welcomeText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
+<<<<<<< HEAD
             android:layout_marginTop="30dp"
+=======
+            android:layout_marginTop="35dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             android:fontFamily="@font/inter_28pt_extrabold"
             android:text="Welcome!"
             android:textColor="@color/black"
@@ -46,7 +67,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
+<<<<<<< HEAD
             android:layout_marginTop="30dp"
+=======
+            android:layout_marginTop="20dp"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/welcomeText">

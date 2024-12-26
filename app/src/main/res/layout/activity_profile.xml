@@ -85,7 +85,11 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"/>
         <TextView
+<<<<<<< HEAD
             android:id="@+id/name_user"
+=======
+            android:id="@+id/fullname"
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mohammed Benali"
@@ -105,7 +109,11 @@
             android:gravity="center"
             android:padding="16dp"
             android:layout_marginTop="10dp"
+<<<<<<< HEAD
             app:layout_constraintTop_toBottomOf="@id/name_user">
+=======
+            app:layout_constraintTop_toBottomOf="@id/fullname">
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 
             <ImageView
                 android:id="@+id/icon1"

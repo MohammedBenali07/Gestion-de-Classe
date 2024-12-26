@@ -3,6 +3,10 @@ package com.example.gestiondeclasse;
 import android.text.TextWatcher;
 
 import android.text.Editable;
+<<<<<<< HEAD
+=======
+import android.text.TextWatcher;
+>>>>>>> 6e32fa966283785abc8796fdb272892932cbdd63
 
 public abstract class SimpleTextWatcher implements TextWatcher {
 
